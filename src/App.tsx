@@ -1,7 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Paper } from "@mui/material";
+import {
+  FormControl,
+  FormControlLabel,
+  FormLabel,
+  Paper,
+  Radio,
+  RadioGroup,
+} from "@mui/material";
 
 const App = () => {
   return (
@@ -25,7 +32,17 @@ const App = () => {
         </div>
 
         <div>
-          
+          <FormControl>
+            <RadioGroup
+              defaultValue=""
+              name="rdbButtonsGroup"
+            >
+              <FormControlLabel value="answer1" control={<Radio />} label="Answer 01" />
+              <FormControlLabel value="answer2" control={<Radio />} label="Answer 02" />
+              <FormControlLabel value="answer3"control={<Radio />} label="Answer 03" />
+              <FormControlLabel value="answer4"control={<Radio />} label="Answer 04" />
+            </RadioGroup>
+          </FormControl>
         </div>
       </Paper>
     </div>
