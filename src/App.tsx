@@ -13,9 +13,19 @@ const App = () => {
       <Paper
         elevation={3}
         className="w-1/2 h-3/4
-        flex flex-col justify-between
+        flex flex-col
         items-center p-10 !rounded-xl"
-      ></Paper>
+      >
+        <div>
+          <h1>Question 01</h1>
+        </div>
+
+        <div>
+          <p>Your Question</p>
+        </div>
+
+        <div></div>
+      </Paper>
     </div>
   );
 };
