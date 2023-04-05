@@ -5,7 +5,8 @@ import "./App.css";
 const App = () => {
   return (
     <div id="App" className="bg-customColors-100 w-full h-screen">
-      
+      <Paper elevation={3}>
+      <Paper/>
     </div>
   );
 };
