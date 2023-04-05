@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import {
+  Button,
   FormControl,
   FormControlLabel,
   FormLabel,
@@ -33,16 +34,35 @@ const App = () => {
 
         <div>
           <FormControl>
-            <RadioGroup
-              defaultValue=""
-              name="rdbButtonsGroup"
-            >
-              <FormControlLabel value="answer1" control={<Radio />} label="Answer 01" />
-              <FormControlLabel value="answer2" control={<Radio />} label="Answer 02" />
-              <FormControlLabel value="answer3"control={<Radio />} label="Answer 03" />
-              <FormControlLabel value="answer4"control={<Radio />} label="Answer 04" />
+            <RadioGroup defaultValue="" name="rdbButtonsGroup">
+              <FormControlLabel
+                value="answer1"
+                control={<Radio />}
+                label="Answer 01"
+              />
+              <FormControlLabel
+                value="answer2"
+                control={<Radio />}
+                label="Answer 02"
+              />
+              <FormControlLabel
+                value="answer3"
+                control={<Radio />}
+                label="Answer 03"
+              />
+              <FormControlLabel
+                value="answer4"
+                control={<Radio />}
+                label="Answer 04"
+              />
             </RadioGroup>
           </FormControl>
+        </div>
+
+        <div>
+          <Button variant="contained" color="success">
+            Success
+          </Button>
         </div>
       </Paper>
     </div>
