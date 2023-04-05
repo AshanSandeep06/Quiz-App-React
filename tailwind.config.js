@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "custom-colors":{
+        "customColors":{
           100: "#f2f2f2"
         }
       }
