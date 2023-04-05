@@ -24,7 +24,7 @@ const App = () => {
         items-center p-10 !rounded-xl"
       >
         <div>
-          <h1>Question 01</h1>
+          <h1 className="">Question 01</h1>
         </div>
 
         <div>
