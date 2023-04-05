@@ -21,7 +21,7 @@ const App = () => {
         elevation={3}
         className="w-1/2 h-3/4
         flex flex-col
-        items-center p-10 !rounded-xl"
+        items-center p-10 !rounded-xl !font-poppins"
       >
         <div>
           <h1 className="">Question 01</h1>
