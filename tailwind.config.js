@@ -9,6 +9,10 @@ module.exports = {
         "customColors":{
           100: "#f2f2f2"
         }
+      },
+
+      fontFamily: {
+        "poppins": ['Poppins', 'sans-serif']
       }
     },
   },
