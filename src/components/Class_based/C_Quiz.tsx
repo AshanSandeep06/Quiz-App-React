@@ -17,6 +17,8 @@ const theme = createTheme({
   },
 });
 
+type C_QuizProps = {};
+
 type C_QuizState = {
   id?: string;
   question: string;
@@ -25,7 +27,11 @@ type C_QuizState = {
   answerIsCorrect: boolean;
 };
 
-export default class C_Quiz extends Component {
+export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
+  constructor(props: C_QuizProps) {
+    super(props);
+  }
+
   render() {
     return (
       <ThemeProvider theme={theme}>
