@@ -28,7 +28,7 @@ items-center p-10 !rounded-xl !font-poppins"
         </p>
       </div>
 
-      <div className="self-start pl-[13px] mb-[16px]">
+      <div className="self-start pl-[13px] mb-[20px]">
         <FormControl>
           <RadioGroup defaultValue="" name="rdbButtonsGroup">
             <FormControlLabel
