@@ -34,15 +34,13 @@ const App = () => {
         items-center p-10 !rounded-xl !font-poppins"
         >
           <div>
-            <h1 className="">Question 01</h1>
+            <h1 className="text-[25px] font-semibold">Question 01</h1>
           </div>
 
           <div>
-            <p>
+            <p className="text-center text-xl font-medium">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              quidem similique soluta a deserunt neque, dolore ea, odio ipsa
-              commodi, molestias aperiam enim? Facere doloribus veritatis
-              inventore repudiandae hic accusamus.
+              quidem similique soluta a deserunt neque ?
             </p>
           </div>
 
