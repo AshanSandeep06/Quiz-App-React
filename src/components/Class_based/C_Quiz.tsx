@@ -56,12 +56,12 @@ export default class C_Quiz extends Component {
           </FormControl>
         </div>
 
-        <div>
+        <div className="w-1/4">
           <Button 
           variant="contained"
           color="success"
           className="!font-poppins"
-          
+          fullWidth={true}
           >
             Success
           </Button>
