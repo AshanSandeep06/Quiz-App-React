@@ -13,6 +13,7 @@ import React, { Component } from "react";
 const theme = createTheme({
   typography: {
     fontFamily: "Poppins, sans-serif",
+    fontSize:15
   },
 });
 
@@ -25,14 +26,16 @@ export default class C_Quiz extends Component {
           className="w-1/2 h-3/4 flex flex-col items-center p-10 !rounded-xl !font-poppins"
           sx={{ gap: 10 / 8 }}
         >
-          <div className="mb-[12px] mt-[3px]">
+          <div className="mb-[12px]">
             <h1 className="text-[25px] font-semibold">Question 01</h1>
           </div>
 
           <div className="mb-[24px]">
-            <p className="text-center text-xl font-medium">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              quidem similique soluta a deserunt neque ?
+            <p className="text-center text-[21px] font-medium">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+              temporibus ducimus maiores officiis unde quos? Nam in ea vitae
+              porro facilis ad perspiciatis! Sapiente, magni minima veritatis
+              vel blanditiis voluptatibus!
             </p>
           </div>
 
@@ -43,21 +46,25 @@ export default class C_Quiz extends Component {
                   value="answer1"
                   control={<Radio />}
                   label="Answer 01"
+                  className="!text-[18px]"
                 />
                 <FormControlLabel
                   value="answer2"
                   control={<Radio />}
                   label="Answer 02"
+                  className="!text-[18px]"
                 />
                 <FormControlLabel
                   value="answer3"
                   control={<Radio />}
                   label="Answer 03"
+                  className="!text-[18px]"
                 />
                 <FormControlLabel
                   value="answer4"
                   control={<Radio />}
                   label="Answer 04"
+                  className="!text-[18px]"
                 />
               </RadioGroup>
             </FormControl>
