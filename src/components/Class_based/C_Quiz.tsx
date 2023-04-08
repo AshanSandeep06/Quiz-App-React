@@ -13,9 +13,17 @@ import React, { Component } from "react";
 const theme = createTheme({
   typography: {
     fontFamily: "Poppins, sans-serif",
-    fontSize:15
+    fontSize: 15,
   },
 });
+
+type C_QuizState = {
+  id?: string;
+  question: string;
+  answers: string[];
+  correctAnswer: string;
+  answerIsCorrect: boolean;
+};
 
 export default class C_Quiz extends Component {
   render() {
