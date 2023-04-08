@@ -70,7 +70,6 @@ export default class C_Quiz extends Component {
               sx={{
                 fontFamily: "Poppins, sans-serif",
                 bgcolor: "navy",
-
                 fontSize: 16,
                 textTransform: "none",
               }}
