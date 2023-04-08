@@ -1,1 +1,1 @@
-export { default } from "./Quiz";
+export { default } from "./C_Quiz";

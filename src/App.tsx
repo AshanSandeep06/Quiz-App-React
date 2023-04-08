@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Quiz from "./components/Class_based";
 import {
   Button,
   FormControl,
@@ -12,7 +13,6 @@ import {
   ThemeProvider,
   createTheme,
 } from "@mui/material";
-import Quiz from "./components/Class_based";
 
 const theme = createTheme({
   typography: {

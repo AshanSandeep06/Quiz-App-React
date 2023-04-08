@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, FormControl, FormControlLabel, Paper, Radio, RadioGroup } from '@mui/material'
 
-export const Quiz = () => {
+export const F_Quiz = () => {
   return (
     <Paper
     elevation={3}
