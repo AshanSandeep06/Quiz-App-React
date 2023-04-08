@@ -63,7 +63,7 @@ export default class C_Quiz extends Component {
             className="!font-poppins"
             fullWidth={true}
           >
-            Success
+            Submit Answer
           </Button>
         </div>
       </Paper>
