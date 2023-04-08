@@ -38,12 +38,12 @@ const App = () => {
           </div>
 
           <div>
-            <h2>
+            <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
               quidem similique soluta a deserunt neque, dolore ea, odio ipsa
               commodi, molestias aperiam enim? Facere doloribus veritatis
               inventore repudiandae hic accusamus.
-            </h2>
+            </p>
           </div>
 
           <div>
