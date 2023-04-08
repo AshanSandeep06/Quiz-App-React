@@ -69,8 +69,8 @@ export default class C_Quiz extends Component {
             <Button
               variant="contained"
               color="success"
-              className="!font-poppins"
               fullWidth={true}
+              sx={{ fontFamily: "Poppins, sans-serif" }}
             >
               Submit Answer
             </Button>
