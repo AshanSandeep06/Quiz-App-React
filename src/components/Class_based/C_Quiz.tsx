@@ -18,7 +18,7 @@ export default class C_Quiz extends Component {
     items-center p-10 !rounded-xl !font-poppins"
         sx={{ gap: 10 / 8 }}
       >
-        <div className="mb-[8px]">
+        <div className="mb-[12px] mt-[3px]">
           <h1 className="text-[25px] font-semibold">Question 01</h1>
         </div>
 
