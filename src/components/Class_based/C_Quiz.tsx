@@ -68,9 +68,8 @@ export default class C_Quiz extends Component {
           <div className="w-1/4">
             <Button
               variant="contained"
-              color="success"
               fullWidth={true}
-              sx={{ fontFamily: "Poppins, sans-serif" }}
+              sx={{ fontFamily: "Poppins, sans-serif", bgcolor: "navy" }}
             >
               Submit Answer
             </Button>
