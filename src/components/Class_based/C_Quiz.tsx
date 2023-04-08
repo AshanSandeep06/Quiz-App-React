@@ -33,9 +33,7 @@ export default class C_Quiz extends Component {
           <div className="mb-[24px]">
             <p className="text-center text-[21px] font-medium">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-              temporibus ducimus maiores officiis unde quos? Nam in ea vitae
-              porro facilis ad perspiciatis! Sapiente, magni minima veritatis
-              vel blanditiis voluptatibus!
+              temporibus ducimus maiores officiis unde quos?
             </p>
           </div>
 
