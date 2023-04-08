@@ -57,7 +57,12 @@ export default class C_Quiz extends Component {
         </div>
 
         <div>
-          <Button variant="contained" color="success" className="!font-poppins">
+          <Button 
+          variant="contained"
+          color="success"
+          className="!font-poppins"
+          
+          >
             Success
           </Button>
         </div>
