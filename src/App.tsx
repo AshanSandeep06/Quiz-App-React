@@ -48,27 +48,21 @@ const App = () => {
                   value="answer1"
                   control={<Radio />}
                   label="Answer 01"
-                  className="!font-poppins"
                 />
                 <FormControlLabel
                   value="answer2"
                   control={<Radio />}
                   label="Answer 02"
-                  className="!font-poppins"
                 />
                 <FormControlLabel
                   value="answer3"
                   control={<Radio />}
                   label="Answer 03"
-                  className="!font-poppins"
                 />
                 <FormControlLabel
                   value="answer4"
                   control={<Radio />}
                   label="Answer 04"
-                  sx={{
-                    fontFamily: "Poppins",
-                  }}
                 />
               </RadioGroup>
             </FormControl>
