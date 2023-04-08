@@ -38,14 +38,14 @@ const App = () => {
             <h1 className="text-[25px] font-semibold">Question 01</h1>
           </div>
 
-          <div className="mb-[15px] pl-[13px]">
+          <div className="mb-[15px]">
             <p className="text-center text-xl font-medium">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
               quidem similique soluta a deserunt neque ?
             </p>
           </div>
 
-          <div className="self-start">
+          <div className="self-start pl-[13px]">
             <FormControl>
               <RadioGroup defaultValue="" name="rdbButtonsGroup">
                 <FormControlLabel
