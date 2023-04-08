@@ -45,7 +45,7 @@ const App = () => {
             </p>
           </div>
 
-          <div>
+          <div className="self-start">
             <FormControl>
               <RadioGroup defaultValue="" name="rdbButtonsGroup">
                 <FormControlLabel
