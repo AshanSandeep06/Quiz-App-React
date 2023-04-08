@@ -34,11 +34,11 @@ const App = () => {
         items-center p-10 !rounded-xl !font-poppins"
         sx={{gap: (10/8), }}
         >
-          <div>
+          <div className="mb-[3px]">
             <h1 className="text-[25px] font-semibold">Question 01</h1>
           </div>
 
-          <div>
+          <div className="mb-[15px]">
             <p className="text-center text-xl font-medium">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
               quidem similique soluta a deserunt neque ?
