@@ -36,7 +36,7 @@ export default class C_Quiz extends Component {
             </p>
           </div>
 
-          <div className="self-start pl-[13px] mb-[16px]">
+          <div className="self-start pl-[13px] mb-[20px]">
             <FormControl>
               <RadioGroup defaultValue="" name="rdbButtonsGroup">
                 <FormControlLabel
