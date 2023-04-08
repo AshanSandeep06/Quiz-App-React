@@ -17,9 +17,7 @@ const theme = createTheme({
   },
 });
 
-type C_QuizProps = {};
-
-type C_QuizState = {
+type questionDetails = {
   id?: string;
   question: string;
   answers: string[];
@@ -27,9 +25,27 @@ type C_QuizState = {
   answerIsCorrect: boolean;
 };
 
+type C_QuizProps = {};
+
+type C_QuizState = {
+  questionList: questionDetails[];
+};
+
 export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
   constructor(props: C_QuizProps) {
     super(props);
+
+    this.state = {
+      questionList: [
+        {
+          id: "01",
+          question: "What is the meaning of life?",
+          answers:[],
+          correctAnswer: "42",
+          answerIsCorrect: false,
+        }
+      ]
+    };
   }
 
   render() {
