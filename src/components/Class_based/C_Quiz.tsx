@@ -170,8 +170,8 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           id: "13",
           question:
             "Who is the WWE Wrestler has beat Brock Lesnar in Summerslam 2019 to capture the Universal Championship as his second world title reign?",
-          answers: ["Seth Rollins", "Goldberg", "Roman Reigns", "Finn Balor"],
-          correctAnswer: "Finn Balor",
+          answers: ["Kurt Angle", "Roman Reigns", "Undertaker", "Seth Rollins"],
+          correctAnswer: "Seth Rollins",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
