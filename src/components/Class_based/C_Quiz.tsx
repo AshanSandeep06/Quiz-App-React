@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import { questionDetails } from "../../types/QuestionDetails";
+import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
 
 const theme = createTheme({
   typography: {
@@ -131,8 +132,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "09",
-          question:
-            "?",
+          question: "?",
           answers: ["Seth Rollins", "Brock Lesnar", "Gunther", "John Cena"],
           correctAnswer: "Gunther",
           submittedAnswer: "",
