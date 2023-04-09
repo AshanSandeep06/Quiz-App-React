@@ -246,7 +246,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Dusty Rhodes & Cody Rhodes",
             "Rocky Johnson & The Rock",
           ],
-          correctAnswer: "The Undertaker",
+          correctAnswer: "Rey Mysterio & Dominik Mysterio",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
