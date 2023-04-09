@@ -9,6 +9,7 @@ import {
   createTheme,
 } from "@mui/material";
 import React, { Component } from "react";
+import 
 
 const theme = createTheme({
   typography: {
@@ -20,7 +21,7 @@ const theme = createTheme({
 type C_QuizProps = {};
 
 type C_QuizState = {
-  questionList: questionDetails[];
+  questionList: QuestionDetails[];
 };
 
 export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
