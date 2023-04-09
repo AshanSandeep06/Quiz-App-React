@@ -254,7 +254,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "20",
           question:
-            "?",
+            "",
           answers: [
             "",
             "",
