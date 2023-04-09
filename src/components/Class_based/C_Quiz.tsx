@@ -333,8 +333,12 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
       ...prevState,
       id: "0" + ++questionID,
       question: prevState.questionList[0].question,
-      answers: [prevState.questionList[0].answers[0], prevState.questionList[0].answers[1], prevState.questionList[0].answers[2], prevState.questionList[0].answers[3]]
-      
+      answers: [
+        prevState.questionList[0].answers[0],
+        prevState.questionList[0].answers[1],
+        prevState.questionList[0].answers[2],
+        prevState.questionList[0].answers[3],
+      ],
     }));
   }
 
