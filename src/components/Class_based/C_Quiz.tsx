@@ -340,7 +340,10 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         prevState.questionList[0].answers[3],
       ],
       correctAnswer: prevState.questionList[0].correctAnswer,
-      correctAnswerIndex: prevState.questionList[0].correctAnswerIndex
+      correctAnswerIndex: prevState.questionList[0].correctAnswerIndex,
+      submittedAnswer: "",
+      submittedAnswerIndex: 0,
+      answerIsCorrect: false,
     }));
   }
 
