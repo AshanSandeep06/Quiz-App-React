@@ -297,14 +297,18 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
           <div className="self-start pl-[13px] mb-[20px]">
             <FormControl>
-              <RadioGroup id="rdbButtonGroup" defaultValue="" name="rdbButtonsGroup">
+              <RadioGroup
+                id="rdbButtonGroup"
+                defaultValue=""
+                name="rdbButtonsGroup"
+              >
                 <FormControlLabel
                   control={<Radio value="answer1" />}
                   label="Answer 01"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio  value="answer2" />}
+                  control={<Radio value="answer2" />}
                   label="Answer 02"
                   className="!text-[18px]"
                 />
