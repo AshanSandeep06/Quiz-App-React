@@ -128,6 +128,16 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "09",
+          question:
+            "Who had the hard-hitting Five star match at WrestleMania 39 goes Hollywood?",
+          answers: ["Seth Rollins", "Brock Lesnar", "Gunther", "John Cena"],
+          correctAnswer: "Gunther",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
