@@ -89,6 +89,16 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "06",
+          question:
+            "Who is the better in-ring Technician among of the wrestlers in WWE?",
+          answers: ["Roman Reigns", "Seth Rollins", "Undertaker", "John Cena"],
+          correctAnswer: "Seth Rollins",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
