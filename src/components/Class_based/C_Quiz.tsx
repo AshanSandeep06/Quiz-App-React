@@ -42,7 +42,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "World Heavyweight Championship",
           ],
           correctAnswer: "Intercontinental Championship",
+          correctAnswerIndex: 3,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -57,7 +59,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Drew Mcintyre",
           ],
           correctAnswer: "Randy Orton",
+          correctAnswerIndex: 2,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 

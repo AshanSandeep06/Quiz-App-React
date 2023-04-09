@@ -3,8 +3,8 @@ export type questionDetails = {
     question: string;
     answers: string[];
     correctAnswer: string;
-    correctAnswerIndex?: number;
+    correctAnswerIndex: number;
     submittedAnswer: string;
-    submittedAnswerIndex?: number;
+    submittedAnswerIndex: number;
     answerIsCorrect: boolean;
   };
