@@ -10,7 +10,6 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import { questionDetails } from "../../types/QuestionDetails";
-import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
 
 const theme = createTheme({
   typography: {
