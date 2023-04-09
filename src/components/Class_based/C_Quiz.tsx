@@ -180,7 +180,12 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           id: "14",
           question:
             "Who is the WWE Wrestler had beat Brock Lesnar in Wrestlemania 2020 under Five Minutes ?",
-          answers: ["Eddie Guevero", "Kurt Angle", "Drew Mcintyre", "Seth Rollins"],
+          answers: [
+            "Eddie Guevero",
+            "Kurt Angle",
+            "Drew Mcintyre",
+            "Seth Rollins",
+          ],
           correctAnswer: "Drew Mcintyre",
           submittedAnswer: "",
           answerIsCorrect: false,
