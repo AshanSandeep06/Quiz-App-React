@@ -159,8 +159,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "12",
-          question:
-            '',
+          question: "",
           answers: ["RKO", "STF", "DDT", "GTS"],
           correctAnswer: "RKO",
           submittedAnswer: "",
