@@ -347,8 +347,12 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
   handleClickSubmit = () => {
     if ($("input").is(":checked")) {
       console.log("Clicked..!");
+      
+      console.log($("input:checked").val())
 
-      this.setState((prevState) => ({}));
+      this.setState((prevState) => ({
+        ...prevState,
+      }));
 
       //   $("input").prop('checked', false);
       //   $("input").removeAttr('checked');
