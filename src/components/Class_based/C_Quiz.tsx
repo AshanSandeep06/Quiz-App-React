@@ -83,8 +83,8 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "05",
           question:
-            'Who had the greatest moment dubbed as the "Heist of the Century"?',
-          answers: ["Roman Reigns", "John Cena", "Seth Rollins", "CM Punk"],
+            "Who is the better in-ring Technician among of the wrestlers in WWE?",
+          answers: ["Roman Reigns", "Seth Rollins", "Undertaker", "John Cena"],
           correctAnswer: "Seth Rollins",
           submittedAnswer: "",
           answerIsCorrect: false,
