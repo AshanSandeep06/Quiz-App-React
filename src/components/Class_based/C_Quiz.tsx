@@ -19,6 +19,8 @@ const theme = createTheme({
   },
 });
 
+let questionID: number = 0;
+
 type C_QuizProps = {};
 
 type C_QuizState = {
@@ -324,6 +326,13 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         },
       ],
     };
+  }
+
+  componentDidMount(): void {
+    this.setState((prevState) => ({
+      ...prevState,
+      id: "0",
+    }));
   }
 
   handleClickSubmit = () => {
