@@ -311,8 +311,12 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
   }
 
   handleClickSubmit = () => {
-    if ($(".radio-buttons:checked")) {
+    if ($("input").is(":checked")) {
       console.log("Clicked..!");
+      
+      //   $("input").prop('checked', false);
+      //   $("input").removeAttr('checked');
+
       //How to get a value of a radio button when it is checked
       // $("input[name='answer3'][value='3']").prop("checked")
       // console.log($('input[name="answer3"]:checked').val());
