@@ -71,7 +71,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Who has the Greatest Money in the Bank Cash In of All time in Wrestling World?",
           answers: ["Seth Rollins", "Edge", "Dolph Ziggler", "Big E"],
           correctAnswer: "Seth Rollins",
+          correctAnswerIndex: 1,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -81,7 +83,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             'Who had the greatest moment dubbed as the "Heist of the Century"?',
           answers: ["Roman Reigns", "John Cena", "Seth Rollins", "CM Punk"],
           correctAnswer: "Seth Rollins",
+          correctAnswerIndex: 3,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -91,7 +95,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Who is the better in-ring Technician among of the wrestlers in WWE?",
           answers: ["Roman Reigns", "Seth Rollins", "Undertaker", "John Cena"],
           correctAnswer: "Seth Rollins",
+          correctAnswerIndex: 2,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -106,7 +112,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "The Great Muta",
           ],
           correctAnswer: "Kazuchika Okada",
+          correctAnswerIndex: 2,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -120,7 +128,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "The Judgement Day",
           ],
           correctAnswer: "D-Generation X",
+          correctAnswerIndex: 1,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -130,7 +140,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Who had the hard-hitting Five star match at WrestleMania 39 goes Hollywood?",
           answers: ["Seth Rollins", "Brock Lesnar", "Gunther", "John Cena"],
           correctAnswer: "Gunther",
+          correctAnswerIndex: 3,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -139,7 +151,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           question: "Who is the G.O.A.T ?",
           answers: ["Roman Reigns", "John Cena", "Triple H", "Hulk Hogan"],
           correctAnswer: "John Cena",
+          correctAnswerIndex: 2,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -148,7 +162,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           question: 'Which wrestler has this "Sweet Chin Music" Finisher?',
           answers: ["Bret Hart", "The Rock", "Shawn Michaels", "Chris Jericho"],
           correctAnswer: "Shawn Michaels",
+          correctAnswerIndex: 3,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -158,7 +174,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             'Which Finisher move dubbed as "The Three Most Dangerous Letters in Sports Entertainment" ?',
           answers: ["RKO", "STF", "DDT", "GTS"],
           correctAnswer: "RKO",
+          correctAnswerIndex: 1,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -167,7 +185,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           question: "Who is the inaugural Universal Champion in WWE?",
           answers: ["Seth Rollins", "Goldberg", "Roman Reigns", "Finn Balor"],
           correctAnswer: "Finn Balor",
+          correctAnswerIndex: 4,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -177,7 +197,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Who is the WWE Wrestler has beat Brock Lesnar in Summerslam 2019 to capture the Universal Championship as his second World Title Reign?",
           answers: ["Kurt Angle", "Roman Reigns", "Undertaker", "Seth Rollins"],
           correctAnswer: "Seth Rollins",
+          correctAnswerIndex: 4,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -192,7 +214,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Seth Rollins",
           ],
           correctAnswer: "Drew Mcintyre",
+          correctAnswerIndex: 3,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
@@ -202,7 +226,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Who was the WWE Wrestler conquered and beat down John Cena at Summerslam 2014 by giving  F5s and 16 German Suplexes to Win the WWE World HeavyWieght Championship?",
           answers: ["Brock Lesnar", "Randy Orton", "Big Show", "Kurt Angle"],
           correctAnswer: "Brock Lesnar",
+          correctAnswerIndex: 1,
           submittedAnswer: "",
+          submittedAnswerIndex: 0,
           answerIsCorrect: false,
         },
 
