@@ -212,9 +212,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         },
 
         {
-          id: "16",
+          id: "17",
           question:
-            "Who was the WWE Wrestler who costs and distracts Drew Mcintyre to lose the Undisputed Universal Championship at Clash at the Castle defeated by Roman Reigns ?",
+            "?",
           answers: ["The Rock", "Sami Zayn", "Jey Uso", "Solo Sikoa"],
           correctAnswer: "Solo Sikoa",
           submittedAnswer: "",
