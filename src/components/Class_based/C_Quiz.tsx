@@ -104,6 +104,21 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "07",
+          question:
+            "who had a highly successful career, Technical skills and Charisma in NJPW?",
+          answers: [
+            "Jay White",
+            "Kazuchika Okada",
+            "Will Osprey",
+            "The Great Muta",
+          ],
+          correctAnswer: "Kazuchika Okada",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
