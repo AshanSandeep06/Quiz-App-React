@@ -357,8 +357,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
           <div className="mb-[24px]">
             <p className="text-center text-[21px] font-medium">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-              temporibus ducimus maiores officiis unde quos?
+              
             </p>
           </div>
 
