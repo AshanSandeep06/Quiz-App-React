@@ -270,7 +270,11 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     };
   }
 
-  handleClickSubmit = () => {};
+  handleClickSubmit = () => {
+    if(){
+      console.log("Clicked..!");
+    }
+  };
 
   render() {
     return (
