@@ -63,14 +63,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "03",
           question:
-            "Who is the youngest World Heavyweight Champion in WWE History?",
-          answers: [
-            "Austion Theory",
-            "Randy Orton",
-            "Brock Lesnar",
-            "Drew Mcintyre",
-          ],
-          correctAnswer: "Randy Orton",
+            "Who has the Greatest Money in the Bank Cash In of All time in Wrestling World?",
+          answers: ["Seth Rollins", "Edge", "Dolph Ziggler", "Big E"],
+          correctAnswer: "Seth Rollins",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
