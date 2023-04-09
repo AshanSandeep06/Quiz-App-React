@@ -149,9 +149,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "11",
-          question: 'Which wrestler has this "Sweet Chin Music" Finisher?',
-          answers: ["Bret Hart", "The Rock", "Shawn Michaels", "Chris Jericho"],
-          correctAnswer: "Shawn Michaels",
+          question: 'Which Finisher move dubbed as "The Three Most Dangerous Letters in Sports Entertainment" ?',
+          answers: ["RKO", "STF", "DDT", "GTS"],
+          correctAnswer: "RKO",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
