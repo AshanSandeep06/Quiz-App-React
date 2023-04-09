@@ -299,26 +299,22 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             <FormControl>
               <RadioGroup id="rdbButtonGroup" defaultValue="" name="rdbButtonsGroup">
                 <FormControlLabel
-                  value="answer1"
-                  control={<Radio />}
+                  control={<Radio value="answer1" />}
                   label="Answer 01"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  value="answer2"
-                  control={<Radio />}
+                  control={<Radio  value="answer2" />}
                   label="Answer 02"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  value="answer3"
-                  control={<Radio />}
+                  control={<Radio value="answer3" />}
                   label="Answer 03"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  value="answer4"
-                  control={<Radio />}
+                  control={<Radio value="answer4" />}
                   label="Answer 04"
                   className="!text-[18px]"
                 />
