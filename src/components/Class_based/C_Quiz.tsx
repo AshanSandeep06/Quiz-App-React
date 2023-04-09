@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import { questionDetails } from "../../types/QuestionDetails";
-import $ from 'jquery';
+import $ from "jquery";
 
 const theme = createTheme({
   typography: {
