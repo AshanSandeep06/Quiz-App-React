@@ -303,7 +303,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
                 name="rdbButtonsGroup"
               >
                 <FormControlLabel
-                  control={<Radio value="answer1" />}
+                  control={<Radio value="answer1" name="answer1" />}
                   label="Answer 01"
                   className="!text-[18px]"
                 />
