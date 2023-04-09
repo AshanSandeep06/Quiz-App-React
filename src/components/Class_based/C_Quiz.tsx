@@ -9,7 +9,7 @@ import {
   createTheme,
 } from "@mui/material";
 import React, { Component } from "react";
-import 
+import { questionDetails } from "../../types/QuestionDetails";
 
 const theme = createTheme({
   typography: {
@@ -21,7 +21,7 @@ const theme = createTheme({
 type C_QuizProps = {};
 
 type C_QuizState = {
-  questionList: QuestionDetails[];
+  questionList: questionDetails[];
 };
 
 export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
@@ -33,11 +33,11 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "01",
           question: "What is the meaning of life?",
-          answers:[],
+          answers: [],
           correctAnswer: "42",
           answerIsCorrect: false,
-        }
-      ]
+        },
+      ],
     };
   }
 
