@@ -22,6 +22,14 @@ const theme = createTheme({
 type C_QuizProps = {};
 
 type C_QuizState = {
+  id?: string;
+  question: string;
+  answers: string[];
+  correctAnswer: string;
+  correctAnswerIndex: number;
+  submittedAnswer: string;
+  submittedAnswerIndex: number;
+  answerIsCorrect: boolean;
   questionList: questionDetails[];
 };
 
@@ -30,6 +38,14 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     super(props);
 
     this.state = {
+      id: "01",
+      question: "",
+      answers: [],
+      correctAnswer: "",
+      correctAnswerIndex: 0,
+      submittedAnswer: "",
+      submittedAnswerIndex: 0,
+      answerIsCorrect: false,
       questionList: [
         {
           id: "01",
