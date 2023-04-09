@@ -69,6 +69,16 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "04",
+          question:
+            'Who had the greatest moment dubbed as the "Heist of the Century"?',
+          answers: ["Roman Reigns", "John Cena", "Seth Rollins", "CM Punk"],
+          correctAnswer: "Seth Rollins",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
