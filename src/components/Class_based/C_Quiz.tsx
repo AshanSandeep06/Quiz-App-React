@@ -107,15 +107,14 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "07",
-          question:
-            "who had a highly successful career, Technical skills and Charisma in NJPW?",
+          question: "Which is the Greatest Faction of All Time?",
           answers: [
-            "Jay White",
-            "Kazuchika Okada",
-            "Will Osprey",
-            "The Great Muta",
+            "D-Generation X",
+            "The Shield",
+            "Evolution",
+            "The Judgement Day",
           ],
-          correctAnswer: "Kazuchika Okada",
+          correctAnswer: "D-Generation X",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
