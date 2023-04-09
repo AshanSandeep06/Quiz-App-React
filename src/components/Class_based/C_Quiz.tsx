@@ -330,6 +330,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
                 fontSize: 16,
                 textTransform: "none",
               }}
+              onClick={this.handleClickSubmit}
             >
               Submit Answer
             </Button>
