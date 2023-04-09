@@ -308,17 +308,17 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio value="answer2" />}
+                  control={<Radio value="answer2" name="answer1" />}
                   label="Answer 02"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio value="answer3" />}
+                  control={<Radio value="answer3" name="answer1" />}
                   label="Answer 03"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio value="answer4" />}
+                  control={<Radio value="answer4" name="answer1" />}
                   label="Answer 04"
                   className="!text-[18px]"
                 />
