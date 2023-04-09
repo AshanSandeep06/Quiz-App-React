@@ -332,6 +332,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     this.setState((prevState) => ({
       ...prevState,
       id: "0" + ++questionID,
+      question: prevState.questionList[0].question
     }));
   }
 
