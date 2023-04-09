@@ -148,7 +148,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         },
 
         {
-          id: "10",
+          id: "11",
           question: 'Which wrestler has this "Sweet Chin Music" Finisher?',
           answers: ["Bret Hart", "The Rock", "Shawn Michaels", "Chris Jericho"],
           correctAnswer: "Shawn Michaels",
