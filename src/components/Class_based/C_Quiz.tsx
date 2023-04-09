@@ -137,6 +137,15 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "09",
+          question: "Who is the G.O.A.T ?",
+          answers: ["Roman Reigns", "John Cena", "Triple H", "Hulk Hogan"],
+          correctAnswer: "Gunther",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
