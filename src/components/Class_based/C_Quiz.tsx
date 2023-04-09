@@ -149,7 +149,8 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "11",
-          question: 'Which Finisher move dubbed as "The Three Most Dangerous Letters in Sports Entertainment" ?',
+          question:
+            'Which Finisher move dubbed as "The Three Most Dangerous Letters in Sports Entertainment" ?',
           answers: ["RKO", "STF", "DDT", "GTS"],
           correctAnswer: "RKO",
           submittedAnswer: "",
