@@ -214,7 +214,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "17",
           question:
-            "?",
+            "Who is the master of Countering or reversing spear into Pedigree?",
           answers: ["The Rock", "Sami Zayn", "Jey Uso", "Solo Sikoa"],
           correctAnswer: "Solo Sikoa",
           submittedAnswer: "",
