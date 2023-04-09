@@ -256,7 +256,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           question:
             "Who has the Longest Reigning Historic Universal Championship Title Reign?",
           answers: ["Brock Lesnar", "Seth Rollins", "Kevin Owens", "Roman Reigns"],
-          correctAnswer: "",
+          correctAnswer: "Roman Reigns",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
