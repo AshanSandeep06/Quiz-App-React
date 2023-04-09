@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import { questionDetails } from "../../types/QuestionDetails";
-import $ from 'jquery';
+import $ from "jquery";
 
 const theme = createTheme({
   typography: {
@@ -270,9 +270,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     };
   }
 
-  handleClickSubmit = () => {
-   
-  };
+  handleClickSubmit = () => {};
 
   render() {
     return (
