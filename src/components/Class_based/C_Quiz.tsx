@@ -35,7 +35,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           question: "What is the meaning of life?",
           answers: [],
           correctAnswer: "42",
-          submittedAnswer:"",
+          submittedAnswer: "",
           answerIsCorrect: false,
         },
       ],
