@@ -32,9 +32,45 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
       questionList: [
         {
           id: "01",
-          question: "What is the meaning of life?",
-          answers: [],
-          correctAnswer: "42",
+          question:
+            "Which of the following championships has John Cena never held?",
+          answers: [
+            "WWE Championship",
+            "United States Championship",
+            "Intercontinental Championship",
+            "World Heavyweight Championship",
+          ],
+          correctAnswer: "Intercontinental Championship",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
+
+        {
+          id: "02",
+          question:
+            "Who is the youngest World Heavyweight Champion in WWE History?",
+          answers: [
+            "Austion Theory",
+            "Randy Orton",
+            "Brock Lesnar",
+            "Drew Mcintyre",
+          ],
+          correctAnswer: "Randy Orton",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
+
+        {
+          id: "03",
+          question:
+            "Who is the youngest World Heavyweight Champion in WWE History?",
+          answers: [
+            "Austion Theory",
+            "Randy Orton",
+            "Brock Lesnar",
+            "Drew Mcintyre",
+          ],
+          correctAnswer: "Randy Orton",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
