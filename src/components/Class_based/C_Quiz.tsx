@@ -281,7 +281,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
       <ThemeProvider theme={theme}>
         <Paper
           elevation={3}
-          className="w-1/2 h-3/4 flex flex-col items-center p-10 !rounded-xl 
+          className="w-1/2 h-3/4 flex flex-col items-center p-10 !rounded-xl
           !font-poppins bg-customColors-100"
           sx={{ gap: 10 / 8 }}
         >
