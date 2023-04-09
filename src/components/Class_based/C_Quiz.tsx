@@ -379,7 +379,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
                   control={
                     <Radio value="2" name="answer" className="radio-buttons" />
                   }
-                  label="Answer 02"
+                  label={this.state.answers[1]}
                   className="!text-[18px]"
                 />
                 <FormControlLabel
