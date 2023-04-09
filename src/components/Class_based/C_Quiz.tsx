@@ -348,8 +348,6 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     if ($("input").is(":checked")) {
       console.log("Clicked..!");
 
-      
-
       //   $("input").prop('checked', false);
       //   $("input").removeAttr('checked');
 
