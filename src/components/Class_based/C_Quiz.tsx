@@ -259,7 +259,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "",
             "",
             "",
-            "Rocky Johnson & The Rock",
+            "",
           ],
           correctAnswer: "Rey Mysterio & Dominik Mysterio",
           submittedAnswer: "",
