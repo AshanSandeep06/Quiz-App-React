@@ -350,7 +350,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           sx={{ gap: 10 / 8 }}
         >
           <div className="mb-[12px]">
-            <h1 className="text-[25px] font-semibold">Question {this.state.id}</h1>
+            <h1 className="text-[25px] font-semibold">
+              Question {this.state.id}
+            </h1>
           </div>
 
           <div className="mb-[24px]">
