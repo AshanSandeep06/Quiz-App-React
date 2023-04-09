@@ -271,7 +271,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
   }
 
   handleClickSubmit = () => {
-    if ($("input[name='answer3'][value='answer3']").prop("checked")) {
+    if ($("input[name='answer3'][value='3']").prop("checked")) {
       console.log("Clicked..!");
     }
   };
@@ -304,22 +304,22 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
                 name="rdbButtonsGroup"
               >
                 <FormControlLabel
-                  control={<Radio value="answer1" name="answer1" />}
+                  control={<Radio value="1" name="answer1" />}
                   label="Answer 01"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio value="answer2" name="answer2" />}
+                  control={<Radio value="2" name="answer2" />}
                   label="Answer 02"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio value="answer3" name="answer3" />}
+                  control={<Radio value="3" name="answer3" />}
                   label="Answer 03"
                   className="!text-[18px]"
                 />
                 <FormControlLabel
-                  control={<Radio value="answer4" name="answer4" />}
+                  control={<Radio value="4" name="answer4" />}
                   label="Answer 04"
                   className="!text-[18px]"
                 />
