@@ -235,6 +235,21 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "19",
+          question:
+            "Who has the Most Wrestlemania Consecutive Winning Streak of All Time ?",
+          answers: [
+            "Bruno Sammartino",
+            "The Undertaker",
+            "Stone Cold Steve Austin",
+            "Andre the Giant",
+          ],
+          correctAnswer: "The Undertaker",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
