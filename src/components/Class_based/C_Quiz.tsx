@@ -201,7 +201,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
             "Big Show",
             "Kurt Angle",
           ],
-          correctAnswer: "Drew Mcintyre",
+          correctAnswer: "Brock Lesnar",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
