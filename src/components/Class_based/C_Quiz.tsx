@@ -214,7 +214,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "17",
           question:
-            "Who is the Master of Countering or reversing a Spear into a Pedigree?",
+            "Who is the Master of Countering or reversing a Spear into a Pedigree ?",
           answers: ["Roman Reigns", "Edge", "Bobby Lashely", "Seth Rollins"],
           correctAnswer: "Seth Rollins",
           submittedAnswer: "",
@@ -224,7 +224,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
         {
           id: "18",
           question:
-            "Who is the Master of Countering or reversing a Spear into a Pedigree?",
+            "Who has the Most Wrestlemania Consecutive Winning Streak of All Time ?",
           answers: ["Roman Reigns", "Edge", "Bobby Lashely", "Seth Rollins"],
           correctAnswer: "Seth Rollins",
           submittedAnswer: "",
