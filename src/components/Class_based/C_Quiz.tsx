@@ -159,9 +159,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "12",
-          question: "",
-          answers: ["RKO", "STF", "DDT", "GTS"],
-          correctAnswer: "RKO",
+          question: "Who is the first ever inagural Universal Champion?",
+          answers: ["Seth Rollins", "Goldberg", "Roman Reigns", "Finn Balor"],
+          correctAnswer: "Finn Balor",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
