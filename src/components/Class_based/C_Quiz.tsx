@@ -118,6 +118,20 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "07",
+          question: "Which is the Greatest Faction of All Time?",
+          answers: [
+            "D-Generation X",
+            "The Shield",
+            "Evolution",
+            "The Judgement Day",
+          ],
+          correctAnswer: "D-Generation X",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
