@@ -38,7 +38,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     super(props);
 
     this.state = {
-      id: "01",
+      id: "",
       question: "",
       answers: [],
       correctAnswer: "",
