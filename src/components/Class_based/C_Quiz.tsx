@@ -17,14 +17,6 @@ const theme = createTheme({
   },
 });
 
-type questionDetails = {
-  id?: string;
-  question: string;
-  answers: string[];
-  correctAnswer: string;
-  answerIsCorrect: boolean;
-};
-
 type C_QuizProps = {};
 
 type C_QuizState = {
