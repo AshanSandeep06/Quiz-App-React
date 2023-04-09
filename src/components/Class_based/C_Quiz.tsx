@@ -357,7 +357,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
           <div className="mb-[24px]">
             <p className="text-center text-[21px] font-medium">
-              
+              {this.state.question}
             </p>
           </div>
 
