@@ -331,7 +331,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
   componentDidMount(): void {
     this.setState((prevState) => ({
       ...prevState,
-      id: "0" + ++questionID,
+      id: "" + ++questionID,
       question: prevState.questionList[0].question,
       answers: [
         prevState.questionList[0].answers[0],
@@ -348,14 +348,14 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
     if ($("input").is(":checked")) {
       console.log("Clicked..!");
 
-      console.log($("input:checked").val())
+      console.log($("input:checked").val());
 
-      console.log($('input:checked').parent().parent().children(":eq(1)").text());
+      console.log(
+        $("input:checked").parent().parent().children(":eq(1)").text()
+      );
 
       this.setState((prevState) => ({
-        ...prevState,
-        submittedAnswer: $('input:checked').parent().parent().children(":eq(1)").text(),
-        submittedAnswerIndex: Number($("input:checked").val()),
+        
       }));
 
       //   $("input").prop('checked', false);
