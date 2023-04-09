@@ -140,9 +140,9 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "10",
-          question: "Who is the G.O.A.T ?",
-          answers: ["Roman Reigns", "John Cena", "Triple H", "Hulk Hogan"],
-          correctAnswer: "Gunther",
+          question: 'Which wrestler has this "Sweet Chin Music" Finisher?',
+          answers: ["Bret Hart", "The Rock", "Shawn Michaels", "Chris Jericho"],
+          correctAnswer: "Shawn Michaels",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
