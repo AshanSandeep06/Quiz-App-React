@@ -25,7 +25,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <div
         id="App"
-        className="bg-customColors-100 w-full 
+        className="w-full bg-[#0047ab]
       h-screen flex items-center justify-center"
       >
         <C_Quiz />
