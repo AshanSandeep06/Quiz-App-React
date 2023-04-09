@@ -347,11 +347,15 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
   handleClickSubmit = () => {
     if ($("input").is(":checked")) {
       console.log("Clicked..!");
-      
+
       console.log($("input:checked").val())
+
+      console.log($('input:checked').parent().parent().children(":eq(1)").text());
 
       this.setState((prevState) => ({
         ...prevState,
+        submittedAnswer: $('input:checked').parent().parent().children(":eq(1)").text(),
+        submittedAnswerIndex: Number($("input:checked").val()),
       }));
 
       //   $("input").prop('checked', false);
