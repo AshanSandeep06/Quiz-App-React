@@ -253,7 +253,7 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "20",
-          question: "Who has the Longest Reigning Historic Universal Championship Title Reign ?",
+          question: "Who has the Longest Reigning Historic Universal Championship Title Reign?",
           answers: ["", "", "", ""],
           correctAnswer: "",
           submittedAnswer: "",
