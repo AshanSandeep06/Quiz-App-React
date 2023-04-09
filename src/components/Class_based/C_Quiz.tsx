@@ -121,14 +121,14 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
 
         {
           id: "08",
-          question: "Which is the Greatest Faction of All Time?",
+          question: "Who had the hard-hitting Five star match at WrestleMania 39 goes Hollywood?",
           answers: [
-            "D-Generation X",
-            "The Shield",
-            "Evolution",
-            "The Judgement Day",
+            "Seth Rollins",
+            "Brock Lesnar",
+            "Gunther",
+            "John Cena",
           ],
-          correctAnswer: "D-Generation X",
+          correctAnswer: "Gunther",
           submittedAnswer: "",
           answerIsCorrect: false,
         },
