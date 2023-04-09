@@ -250,6 +250,21 @@ export default class C_Quiz extends Component<C_QuizProps, C_QuizState> {
           submittedAnswer: "",
           answerIsCorrect: false,
         },
+
+        {
+          id: "19",
+          question:
+            "Who was the First-ever Father and Son Tag Team Champions in WWE ?",
+          answers: [
+            "Vincent Kennedy McMahon & Shane Mcmahon",
+            "Rey Mysterio & Dominik Mysterio",
+            "Dusty Rhodes & Cody Rhodes",
+            "Rocky Johnson & The Rock",
+          ],
+          correctAnswer: "Rey Mysterio & Dominik Mysterio",
+          submittedAnswer: "",
+          answerIsCorrect: false,
+        },
       ],
     };
   }
